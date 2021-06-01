@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width =device-width, initial-scale=1">
+
+  <title>HOTEL CRISTAL</title>
+  <link rel="stylesheet" href="grid-style.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="img-09/LogoMakr-5Dabzc.jpg" alt="logga">
+    <img id="outside" src="img-09/view.jpg" alt="CRISTAL HOTEL outside">
+  </header>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html">Start</a>
+    <a href="Boka.html" class="active">Boka</a>
+    <a href="hitta.html">Hitta</a>
+    <a href="kontakta.html">Kontakta</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </nav>
+  <section>
+    <div class="container">
+      <form action="tack.html">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Förnamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Efternamn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lnamne" name="lastname" placeholder="Ditt efternamn..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="telephone">Telenr</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="telephone" name="telephone" placeholder="Ditt telefonnummer">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="email" name="Email" placeholder="din epost...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Rumstyp</label>
+          </div>
+          <div class="col-75">
+            <select id="typerroom" name="typeroom">
+              <option value="enkel">Enkelrum</option>
+              <option value="dubbel">Dubbelrum</option>
+              <option value="suit">Suit</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="suject">Övrigt</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Övrig info..." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+  <aside>
+    <img id="bokning" src="img-09/bokning.jpeg" alt="bokning">
+    <ul>
+
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </li>
+      <li>
+        Quisque molestie ultrices justo in facilisis.
+      </li>
+      <li>Mauris tortor mi, gravida non tincidunt id, maximus et leo.
+      </li>
+      <li>Lorem ipsum dolor sit amet.
+      </li>
+    </ul>
+
+  </aside>
+  <footer>
+    Cristal Hotell | Föreningsgatan 16 | 21144 Malmö | 040-34 65 65
+  </footer>
+
+
+  <script src="script-nav.js"> </script>
+</body>
+
+</html>
